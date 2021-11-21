@@ -12,13 +12,11 @@ class ArticleBase(BaseModel):
 
 class ArticleCreate(ArticleBase):
     published: date
-    uc: str
 
 class ArticleUpdate(ArticleBase):
     title: Optional[str]
     content: Optional[str]
     published: Optional[date]
-    uc: str
 
 class Article(ArticleBase):
     key: str # key for NoSQL Deta Base.

@@ -1,3 +1,4 @@
 .env
 .deta/
 __pycache__
+secret
