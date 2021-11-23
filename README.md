@@ -1,5 +1,5 @@
 
-This is minimum blueprint for `fastapi`, deploying on Deta.
+This is minimum blueprint for `fastapi`, deploying on Deta ().
 Initial schema is written for simple mini blog API
 
 # Set up
@@ -32,7 +32,7 @@ You'll be prompted like so:
 then edit `deta_setup.py`,
 
 ```
-deta = Deta('deta-project-id')
+deta = Deta('deta-project-secret-key')
 db = deta.Base("base-name")
 ```
 
