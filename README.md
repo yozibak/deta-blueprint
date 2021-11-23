@@ -1,5 +1,5 @@
 
-This is minimum blueprint for `fastapi`, deploying on Deta ().
+This is minimum blueprint for `fastapi`, deploying on Deta.
 Initial schema is written for simple mini blog API
 
 # Set up
